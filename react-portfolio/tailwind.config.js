@@ -8,7 +8,12 @@ module.exports = {
     extend: {
       fontFamily: {
         helveticaNeue: 'helveticaNeue'
-      }
+      },
+      colors: {
+        'beige' : '#Fdfdf3',
+        'taupe' : '#979691',
+        'charcoal' : '#20201E',
+      },
     },
   },
   plugins: [],
