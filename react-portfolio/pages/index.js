@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {BsFillMoonStarsFill}  from 'react-icons/bs';
-import {AiFillTwitterCircle, AiFillLinkedin, AiFillYoutube} from 'react-icons/ai';
+import {AiFillTwitterCircle, AiFillLinkedin, AiFillGithub} from 'react-icons/ai';
 import profilepic from '../public/memoji3.png'
 export default function Home() {
   return (
@@ -25,13 +25,13 @@ export default function Home() {
           </nav>
           <div className ="text-center p-10">
             <h2 className='text-5xl py-2 text-charcoal font-helveticaNeue'>Daniel Munoz-lara</h2>
-            <h3 className='text-2xl py-2'>Student and Developer</h3>
+            <h3 className='text-2xl py-2 font-helveticaNeue'>Student and Developer</h3>
             <p className='text-md py-5 leading-8 text-gray-800'>I am currently making this website and praying it wont break</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-taupe'>
             <AiFillTwitterCircle />
             <a href="https://www.linkedin.com/in/danielmnuoz/"><AiFillLinkedin /></a>
-            <AiFillYoutube />
+            <AiFillGithub />
           </div>
           <div className='relative mx-auto bg-charcoal rounded-full w-80 h-80 mt-20 overflow-hidden'>
             <Image src={profilepic} layout="fill" objectFit="cover"/>
