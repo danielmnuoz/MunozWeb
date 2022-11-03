@@ -29,17 +29,17 @@ export default function Home() {
             <p className='text-md py-5 leading-8 text-gray-800'>I am currently making this website and praying it wont break</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-taupe'>
-            <a href = "https://www.instagram.com/danielmnuoz/"><AiFillInstagram /></a>
-            <a href="https://www.linkedin.com/in/danielmnuoz/"><AiFillLinkedin /></a>
-            <a href='https://github.com/danielmnuoz'><AiFillGithub/></a>
+            <a className='hover:scale-125' href = "https://www.instagram.com/danielmnuoz/"><AiFillInstagram /></a>
+            <a className='hover:scale-125' href="https://www.linkedin.com/in/danielmnuoz/"><AiFillLinkedin /></a>
+            <a className='hover:scale-125' href='https://github.com/danielmnuoz'><AiFillGithub/></a>
           </div>
           <div className='relative mx-auto bg-charcoal rounded-full w-80 h-80 mt-20 overflow-hidden'>
             <Image src={profilepic} layout="fill" objectFit="cover"/>
           </div>
         </section>
-        <section>
+        {/* <section>
           <h3 className='text-3xl py-1'>Portfolio</h3>
-        </section>
+        </section> */}
       </main>
     </div>
   )
