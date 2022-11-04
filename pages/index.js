@@ -24,9 +24,9 @@ export default function Home() {
             </ul>
           </nav>
           <div className ="text-center p-10">
-            <h2 className='text-5xl py-2 text-charcoal font-helveticaNeue'>Daniel Munoz-lara</h2>
+            <h2 className='text-5xl py-2 text-charcoal font-helveticaNeue'>Daniel Munoz-Lara</h2>
             <h3 className='text-2xl py-2 font-helveticaNeue'>Student and Developer</h3>
-            <p className='text-md py-5 leading-8 text-gray-800'>I am currently making this website and praying it wont break</p>
+            <p className='text-md py-5 leading-8 text-gray-800'>This website is currently under development.<br />Here are a few means of contact, feel free to reach out!</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-taupe'>
             <a className='hover:scale-125' href = "https://www.instagram.com/danielmnuoz/"><AiFillInstagram /></a>
