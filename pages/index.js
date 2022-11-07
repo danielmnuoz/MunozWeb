@@ -16,12 +16,10 @@ export default function Home() {
         <section className = "min-h-screen">
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='font-helveticaNeue text-xl'>Daniel Munoz</h1>
-            <div className='flex items-center'>
-              
-                <a className='bg-taupe text-white px-4 py-2 rounded-md' href="/Sep.24.2022Resume.pdf" download> Resume <AiOutlineDownload /></a>
-              
-              
-            </div>
+            <a className='bg-taupe flex justify-center items-center text-white px-4 py-2 rounded-md' href="/Sep.24.2022Resume.pdf" download>
+                <p>Resume</p>
+                <i className='pl-1'><AiOutlineDownload /></i>
+            </a>
           </nav>
           <div className ="text-center p-10">
             <h2 className='text-5xl py-2 text-charcoal font-helveticaNeue'>Daniel Munoz-Lara</h2>
