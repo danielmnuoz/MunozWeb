@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {BsFillMoonStarsFill}  from 'react-icons/bs';
-import {AiFillInstagram, AiFillLinkedin, AiFillGithub, AiOutlineDownload} from 'react-icons/ai';
+import {AiFillInstagram, AiFillLinkedin, AiFillGithub, AiOutlineDownload, AiFillMail} from 'react-icons/ai';
 import profilepic from '../public/memoji3.png'
 export default function Home() {
   return (
@@ -15,8 +15,8 @@ export default function Home() {
       <main className='bg-beige px-10'>
         <section className = "min-h-screen">
           <nav className='py-10 mb-12 flex justify-between'>
-            <h1 className='font-helveticaNeue text-xl'>Daniel Munoz</h1>
-            <a className='bg-taupe flex justify-center items-center text-white px-4 py-2 rounded-md' href="/DanielMunozResume.pdf" download>
+            <h1 className='font-helveticaNeue text-xl'>DML.</h1>
+            <a className='bg-taupe flex justify-center items-center text-white px-4 py-2 rounded-md' href="/DanielMunozResume.pdf" target='_blank'>
                 <p>Resume</p>
                 <i className='pl-1'><AiOutlineDownload /></i>
             </a>
@@ -30,6 +30,7 @@ export default function Home() {
             <a className='hover:scale-125' href = "https://www.instagram.com/danielmnuoz/"><AiFillInstagram /></a>
             <a className='hover:scale-125' href="https://www.linkedin.com/in/danielmnuoz/"><AiFillLinkedin /></a>
             <a className='hover:scale-125' href='https://github.com/danielmnuoz'><AiFillGithub/></a>
+            <a className='hover:scale-125' href='mailto: dmnuozl@gmail.com'> <AiFillMail /></a>
           </div>
           <div className='relative mx-auto bg-charcoal rounded-full w-80 h-80 mt-20 overflow-hidden'>
             <Image src={profilepic} layout="fill" objectFit="cover"/>
