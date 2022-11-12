@@ -10,7 +10,7 @@ module.exports = {
         helveticaNeue: 'helveticaNeue'
       },
       colors: {
-        'beige' : '#Fdfdf3',
+        'beige' : '#EdEdE3',
         'taupe' : '#979691',
         'charcoal' : '#20201E',
       },
