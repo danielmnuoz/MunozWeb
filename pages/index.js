@@ -19,9 +19,12 @@ export default function Home() {
         <section className = "min-h-screen">
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='font-helveticaNeue text-xl'>DML.</h1>
-            <a className='bg-taupe flex justify-center items-center text-white px-4 py-2 rounded-md' href="/DanielMunozResume.pdf" target='_blank'>
-                <p>Resume</p>
-                <i className='pl-1'><AiOutlineDownload /></i>
+            
+            <a href='/DanielMunozResume.pdf' target='_blank'>
+            <button className="flex justify-center items-center px-4 py-1 btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] text-beige bg-taupe ease-out hover:translate-y-1 transition-all rounded-md">
+              Resume
+              <i className='pl-1'><AiOutlineDownload /></i>
+            </button>
             </a>
           </nav>
           <div className ="text-center p-10">
