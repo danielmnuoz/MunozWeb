@@ -4,6 +4,9 @@ import styles from '../styles/Home.module.css'
 import {BsFillMoonStarsFill}  from 'react-icons/bs';
 import {AiFillInstagram, AiFillLinkedin, AiFillGithub, AiOutlineDownload, AiFillMail} from 'react-icons/ai';
 import profilepic from '../public/memoji3.png'
+import React from "react";
+import Typewriter from 'typewriter-effect';
+
 export default function Home() {
   return (
     <div>
@@ -23,7 +26,15 @@ export default function Home() {
           </nav>
           <div className ="text-center p-10">
             <h2 className='text-5xl py-2 text-charcoal font-helveticaNeue'>Daniel Munoz-Lara</h2>
-            <h3 className='text-2xl py-2 font-helveticaNeue'>Student and Developer</h3>
+            <h3 className='text-2xl py-2 font-helveticaNeue'>I am a
+            <Typewriter
+              options={{
+                strings: ['Student at Clemson University', 'Software Developer', 'First Generation Immigrant'],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+            </h3>
             <p className='text-md py-5 leading-8 text-gray-800'>This website is currently under development.<br />Here are a few means of contact, feel free to reach out!</p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-taupe'>
