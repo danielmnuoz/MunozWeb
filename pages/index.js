@@ -57,10 +57,10 @@ export default function Home() {
           <div>
           <h3 className='flex justify-center font-helveticaNeue text-3xl py-1 mt-10 mb-3'>Projects</h3>
           </div>
-          <div className=''>
+          <div className='flex flex-wrap'>
           {/* card one */}
-          <div className='flex justify-center'>
-            <div className='rounded-lg shadow-lg bg-charcoal max-w-sm'>
+          <div className='flex-1 border-8'>
+            <div className='m-auto rounded-lg shadow-lg bg-charcoal w-96'>
               <Image className = 'rounded-t-lg' src={metertheaterpic} />
               <div className='p-6'>
               <h3 className='text-white text-xl font-helveticaNeue mb-2'>Meter Theater</h3>
@@ -77,8 +77,8 @@ export default function Home() {
             </div>
           </div>
           {/* card two */}
-          <div className='flex justify-center'>
-            <div className='rounded-lg shadow-lg bg-charcoal max-w-sm'>
+          <div className='flex-1'>
+            <div className='m-auto rounded-lg shadow-lg bg-charcoal w-96'>
               <Image className = 'rounded-t-lg' src={truckpic} />
               <div className='p-6'>
               <h3 className='text-white text-xl font-helveticaNeue mb-2'>Truck Driver Incentive Program</h3>
