@@ -43,7 +43,7 @@ export default function Home() {
             </h3>
             <p className='text-md py-5 leading-8 text-gray-800 font-helveticaNeue'>This website is currently under development.<br />Here are a few of my socials and means of contact, feel free to reach out!</p>
           </div>
-          <div className='text-5xl flex justify-center gap-16 py-3 text-taupe'>
+          <div className='text-5xl flex justify-center gap-12 py-3 text-taupe'>
             <a className='hover:scale-125' href = "https://www.instagram.com/danielmnuoz/"><AiFillInstagram /></a>
             <a className='hover:scale-125' href="https://www.linkedin.com/in/danielmnuoz/"><AiFillLinkedin /></a>
             <a className='hover:scale-125' href='https://github.com/danielmnuoz'><AiFillGithub/></a>
@@ -57,9 +57,9 @@ export default function Home() {
           <div>
           <h3 className='flex justify-center font-helveticaNeue text-3xl py-1 mt-10 mb-3'>Projects</h3>
           </div>
-          <div className='flex flex-wrap'>
+          <div className='flex flex-wrap gap-12'>
           {/* card one */}
-          <div className='flex-1 px-8 py-3'>
+          <div className='flex-1 py-3'>
             <div className='m-auto rounded-lg shadow-lg bg-charcoal w-72'>
               <Image className = 'rounded-t-lg' src={metertheaterpic} />
               <div className='p-6'>
@@ -77,7 +77,7 @@ export default function Home() {
             </div>
           </div>
           {/* card two */}
-          <div className='flex-1 px-8 py-3'>
+          <div className='flex-1 py-3'>
             <div className='m-auto rounded-lg shadow-lg bg-charcoal w-72'>
               <Image className = 'rounded-t-lg' src={truckpic} />
               <div className='p-6'>
@@ -94,7 +94,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className='flex-1 px-8 py-3'>
+          <div className='flex-1 py-3'>
             <div className='m-auto rounded-lg shadow-lg bg-charcoal w-72'>
               <Image className = 'rounded-t-lg' src={metertheaterpic} />
               <div className='p-6'>
