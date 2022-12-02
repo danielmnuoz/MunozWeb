@@ -23,7 +23,7 @@ export default function Home() {
           <nav className='py-10 flex justify-between'>
             <h1 className='font-helveticaNeue text-xl'>DML.</h1>
             
-            <a href='/DanielMunozResume.pdf' target='_blank'>
+            <a href='/PrivateResume.pdf' target='_blank'>
             <button className="flex justify-center items-center px-4 py-1 btn shadow-[0_6px_0_rgb(0,0,0)] hover:shadow-[0_4px_0px_rgb(0,0,0)] text-beige bg-taupe ease-out hover:translate-y-1 transition-all rounded-md">
               Resume
               <i className='pl-1'><AiOutlineDownload /></i>
@@ -59,13 +59,14 @@ export default function Home() {
           </div>
           <div className='flex flex-wrap gap-12'>
           {/* card one */}
+          {/* https://drive.google.com/file/d/1pseXmILNWcZEUMgqYSFmWP_CEgTPXPze/view?usp=sharing */}
           <div className='flex-1 py-3'>
             <div className='m-auto rounded-lg shadow-lg bg-charcoal w-72'>
               <Image className = 'rounded-t-lg' src={metertheaterpic} />
               <div className='p-6'>
               <h3 className='text-white text-xl font-helveticaNeue mb-2'>Meter Theater</h3>
                 <p className='text-white text-base font-helveticaNeue mb-4'>
-                Internal web application hosted on Landis + Gyr private network to manage and track meter inventory used by employees.
+                Internal web application hosted on Landis + Gyr private network to manage and track meter inventory used by employees
                 </p>
                 <a className='inline-block' href='https://github.com/danielmnuoz/MeterTheater'>
                   <button type='block' className='flex items-center px-4 py-2.5 bg-gray-700 text-white font-helveticaNeue text-lg leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-200 ease-in-out'>
@@ -79,13 +80,13 @@ export default function Home() {
           {/* card two */}
           <div className='flex-1 py-3'>
             <div className='m-auto rounded-lg shadow-lg bg-charcoal w-72'>
-              <Image className = 'rounded-t-lg' src={truckpic} />
+              <img className = 'w-full h-36 rounded-t-lg' src='truckprogram.jpg' />
               <div className='p-6'>
               <h3 className='text-white text-xl font-helveticaNeue mb-2'>Truck Driver Incentive Program</h3>
                 <p className='text-white text-base font-helveticaNeue mb-4'>
-                Internal web application hosted on Landis + Gyr private network to manage and track meter inventory used by employees.
+                Web Application for truck drivers to gather points and spend in catalog from company sponsors
                 </p>
-                <a className='inline-block' href='https://github.com/danielmnuoz/MeterTheater'>
+                <a className='inline-block' href='https://github.com/danielmnuoz/TruckWebsite'>
                   <button type='block' className='flex items-center px-4 py-2.5 bg-gray-700 text-white font-helveticaNeue text-lg leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-200 ease-in-out'>
                   View Code
                   <i className='pl-2'><HiOutlineArrowCircleRight/></i>
@@ -94,15 +95,16 @@ export default function Home() {
               </div>
             </div>
           </div>
+          {/* card three */}
           <div className='flex-1 py-3'>
             <div className='m-auto rounded-lg shadow-lg bg-charcoal w-72'>
-              <Image className = 'rounded-t-lg' src={metertheaterpic} />
+              <img className = 'rounded-t-lg' src='MunozWeb.png' />
               <div className='p-6'>
-              <h3 className='text-white text-xl font-helveticaNeue mb-2'>Meter Theater</h3>
+              <h3 className='text-white text-xl font-helveticaNeue mb-2'>MunozWeb</h3>
                 <p className='text-white text-base font-helveticaNeue mb-4'>
-                Internal web application hosted on Landis + Gyr private network to manage and track meter inventory used by employees.
+                Personal Website to highlight skills and experience throughout my career as well as information about myself
                 </p>
-                <a className='inline-block' href='https://github.com/danielmnuoz/MeterTheater'>
+                <a className='inline-block' href='https://github.com/danielmnuoz/MunozWeb'>
                   <button type='block' className='flex items-center px-4 py-2.5 bg-gray-700 text-white font-helveticaNeue text-lg leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-200 ease-in-out'>
                   View Code
                   <i className='pl-2'><HiOutlineArrowCircleRight/></i>
